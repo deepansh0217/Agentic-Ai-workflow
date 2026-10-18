@@ -1,0 +1,24 @@
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Virtual environments and local tooling
+.venv/
+venv/
+env/
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
